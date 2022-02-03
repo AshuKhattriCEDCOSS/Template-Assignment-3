@@ -8,6 +8,7 @@ a {
   }
   #abc {
     margin-right: 200px;
+    text-align:right;
   }
   #box1 {
     border: 2px solid lightgray;
@@ -43,6 +44,7 @@ a {
     font-size: 25px;
     font-weight: bold;
     margin-left: 120px;
+    margin-bottom: 20px;
   }
   #heading2 {
     float: left;
@@ -53,21 +55,26 @@ a {
     background-color: lightgray;
     width: 300px;
     padding-bottom: 165px;
+    margin-top: 10px;
+    margin-bottom: 10px;
     margin-left: 50px;
     float: left;
+    text-align:center;
   }
   #insidetext3 {
     font-size: 25px;
     font-weight: bold;
     margin-left: 130px;
   }
-  main {
-    /* width:72%; */
+  #main {
+     width:70%;
     margin-left: 50px;
     display: flex;
     justify-content: space-between;
     overflow:hidden;
-    margin-bottom:20px;
+    flex-wrap: wrap;
+    align-items: center;
+    /* margin-bottom:10px; */
   }
   #text1 {
     font-size: 20px;
@@ -81,29 +88,31 @@ a {
     font-size: 20;
     color: black;
     font-weight: normal;
-    margin-bottom:20px;
+
+
   }
    #bottomside {
     border: 10px solid lightgray;
     background-color: lightgray;
     width: 72%;
-    font-size: 25;
+    font-size: 18;
     font-weight: bold;
     margin-left: 50px;
     display: flex;
     justify-content:center;
+    flex-wrap: wrap;
     
-    margin-top:200px;
+    margin-top:20px;
   } 
 
   input[type="text"] {
     font-size: 22;
-    width: 20%;
+    width: 250px;
     margin:0px 30px;
   }
   input[type="submit"] {
     background-color: rgb(90, 168, 214);
-    width: 20%;
+    width: 190px;;
     font-size: 20;
     text-align:left;
   }
@@ -112,6 +121,7 @@ a {
       justify-content: space-between;
       width: 72%;
       text-align:center;
+      flex-wrap: wrap;
       
       
   }

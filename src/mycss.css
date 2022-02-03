@@ -83,34 +83,36 @@ a {
     font-weight: normal;
     margin-bottom:20px;
   }
-  #bottomside {
+   #bottomside {
     border: 10px solid lightgray;
     background-color: lightgray;
     width: 72%;
-    font-size: 20;
+    font-size: 25;
     font-weight: bold;
     margin-left: 50px;
     display: flex;
-    justify-content: space-between;
-
+    justify-content:center;
+    
     margin-top:200px;
-  }
+  } 
 
   input[type="text"] {
-    font-size: 18;
+    font-size: 22;
     width: 20%;
+    margin:0px 30px;
   }
   input[type="submit"] {
     background-color: rgb(90, 168, 214);
     width: 20%;
-    font-size: 18;
+    font-size: 20;
+    text-align:left;
   }
   #footer{
       display:flex;
       justify-content: space-between;
-      flex-wrap: wrap;
       width: 72%;
       text-align:center;
       
       
   }
+  

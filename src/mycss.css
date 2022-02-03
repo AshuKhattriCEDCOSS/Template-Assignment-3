@@ -1,0 +1,116 @@
+a {
+    color: blue;
+    margin: 20px;
+  }
+
+  #def {
+    margin-left: 77px;
+  }
+  #abc {
+    margin-right: 200px;
+  }
+  #box1 {
+    border: 2px solid lightgray;
+    background-color: lightgray;
+    width: 300px;
+    padding-bottom: 150px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin-left: 50px;
+    float: left;
+  }
+  #boxcontent {
+    border: 2px solid lightgrey;
+    width: 72%;
+    background-color: lightgrey;
+    margin-left: 50px;
+    padding: 25px;
+    padding-bottom: 25px;
+  }
+  #insidetext1 {
+    font-size: 25px;
+    font-weight: bold;
+    margin-left: 120px;
+  }
+  #heading1,
+  #heading2,
+  #heading3 {
+    float: left;
+  }
+  #insidetext2 {
+    font-size: 25px;
+    font-weight: bold;
+    margin-left: 120px;
+  }
+  #heading2 {
+    float: left;
+  }
+  #box2,
+  #box3 {
+    border: 2px solid lightgray;
+    background-color: lightgray;
+    width: 300px;
+    padding-bottom: 165px;
+    margin-left: 50px;
+    float: left;
+  }
+  #insidetext3 {
+    font-size: 25px;
+    font-weight: bold;
+    margin-left: 130px;
+  }
+  main {
+    /* width:72%; */
+    margin-left: 50px;
+    display: flex;
+    justify-content: space-between;
+    overflow:hidden;
+    margin-bottom:20px;
+  }
+  #text1 {
+    font-size: 20px;
+    width: 300px;
+    margin-left: -70;
+    font-weight: normal;
+  }
+
+  #link1 {
+    margin-left: -10px;
+    font-size: 20;
+    color: black;
+    font-weight: normal;
+    margin-bottom:20px;
+  }
+  #bottomside {
+    border: 10px solid lightgray;
+    background-color: lightgray;
+    width: 72%;
+    font-size: 20;
+    font-weight: bold;
+    margin-left: 50px;
+    display: flex;
+    justify-content: space-between;
+
+    margin-top:200px;
+  }
+
+  input[type="text"] {
+    font-size: 18;
+    width: 20%;
+  }
+  input[type="submit"] {
+    background-color: rgb(90, 168, 214);
+    width: 20%;
+    font-size: 18;
+  }
+  #footer{
+      display:flex;
+      justify-content: space-between;
+      flex-wrap: wrap;
+      width: 72%;
+      text-align:center;
+      
+      
+  }
